@@ -1,5 +1,5 @@
-import getNeighborhoodsList from "./2-arrow";
+import getSumofHoods from "./3-default-parameter";
 
-const newNeighborhoodList = new getNeighborhoodsList();
-const res = newNeighborhoodList.addNeighborhood('Noe Valley');
-console.log(res);
+console.log(getSumofHoods(34));
+console.log(getSumofHoods(34, 3));
+console.log(getSumofHoods(34, 3, 4));
