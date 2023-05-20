@@ -30,7 +30,7 @@ function countStudents(file) {
     return data.map((entry) => entry.split(',')[0]).join(', ');
   }
 
-  console.log(`Number of students in CS: ${CS.length}. List: ${firstNames(CS)} `);
+  console.log(`Number of students in CS: ${CS.length}. List: ${firstNames(CS)}`);
   console.log(`Number of students in SWE: ${SWE.length}. List: ${firstNames(SWE)}`);
 }
 
